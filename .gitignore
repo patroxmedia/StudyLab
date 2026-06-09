@@ -135,7 +135,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+src/.env
 .envrc
 .venv
 env/
@@ -144,11 +144,11 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings.py
+# Spyder project settings
 .spyderproject
 .spyproject
 
-# Rope project settings.py
+# Rope project settings
 .ropeproject
 
 # mkdocs documentation
@@ -177,7 +177,7 @@ cython_debug/
 
 # Abstra
 # Abstra is an AI-powered process automation framework.
-# Ignore directories containing user credentials, local state, and settings.py.
+# Ignore directories containing user credentials, local state, and settings.
 # Learn more at https://abstra.io/docs
 .abstra/
 
@@ -205,3 +205,8 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# vector stores
+vector_db
+chapters_vector_db
